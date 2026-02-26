@@ -1,7 +1,5 @@
 package aula2;
 public class Carro {
-
-
         // TODO Auto-generated method stub
         String marca;
         int ano;
@@ -12,9 +10,13 @@ public class Carro {
             modelo = "Desconhecido";
         }
         Carro(String m){
-            this.marca = m;
+            this.marca = m;        
 
-
-    }
+        
+        }
+        Carro(String modelo, String marca){
+        	this.modelo=modelo;
+        	this.marca=marca;
+        }
 
 }
